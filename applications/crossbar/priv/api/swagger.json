@@ -27613,6 +27613,16 @@
                     "description": "crossbar ssl workers",
                     "type": "integer"
                 },
+                "stability_level": {
+                    "default": "stable",
+                    "description": "crossbar stability_level",
+                    "enum": [
+                        "alpha",
+                        "beta",
+                        "stable"
+                    ],
+                    "type": "string"
+                },
                 "token_costs": {
                     "default": 1,
                     "description": "crossbar token costs",
